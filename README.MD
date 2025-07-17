@@ -2,151 +2,54 @@
 
 > *"Understanding complex concepts, one byte at a time."*
 
-Welcome to this week's Engineering Digest! Each week, we break down essential technical concepts that every engineer should understand. Dive in, learn something new, and impress your colleagues with your newfound knowledge!
+Welcome to our Engineering Weekly Digest! Each week, we break down essential technical concepts that every engineer should understand. Dive in, learn something new, and impress your colleagues with your newfound knowledge!
 
-## 📋 This Week's Menu
+## 📋 Weekly Digests
 
-- [Zero-copy](#zero-copy) - Moving data efficiently
-- [User space vs Kernel space](#user-space-vs-kernel-space) - The two worlds of computing
-- [ACID](#acid) - The foundation of reliable databases
-- [Idempotency](#idempotency) - Do it once, do it twice, same result
-- [Redo log](#redo-log) - Your database's safety net
-- [Write ahead log](#write-ahead-log) - Promising to remember before acting
-- [Isolation Levels](#isolation-levels) - Playing nice with concurrent transactions
-
----
-
-## Zero-copy
-
-### 🔍 What is it?
-Zero-copy is a technique that avoids unnecessary data copying between kernel space and user space during I/O operations, significantly improving performance by reducing CPU cycles and memory bandwidth usage.
-
-### 💡 In simple terms
-Imagine you're moving furniture from one room to another. Instead of carrying each piece yourself (traditional I/O), zero-copy is like putting wheels on the furniture and rolling it directly to its destination.
-
-### 🌟 Did you know?
-In high-performance systems like Kafka, zero-copy techniques can improve throughput by up to 1000%!
-
-### 📚 Learn more
-[Zero Copy I: User-Mode Perspective](https://www.linuxjournal.com/article/6345)
+### 🗓️ Latest Releases
+- **[Week 1 - July 17, 2025](WEEK_1_17_jul_2025.md)** - *Fundamentals Edition*
+    - Zero-copy techniques
+    - User space vs Kernel space
+    - ACID properties
+    - Idempotency patterns
+    - Database logging (Redo & WAL)
+    - Transaction isolation levels
 
 ---
 
-## User space vs Kernel space
+## 🎯 What You'll Find Here
 
-### 🔍 What is it?
-Operating systems divide memory into two distinct regions: kernel space (where privileged operations run) and user space (where applications run), creating a security boundary that protects critical system functions.
+Each weekly digest is carefully crafted to be:
 
-### 💡 In simple terms
-Think of kernel space as the "employees-only" area of a restaurant (Privileged Access, Critical Functions, High Security), while user space is the dining area (restricted access, must make requests for service).
+### 🧠 **Educational**
+Complex concepts broken down into digestible, understandable pieces with real-world analogies
 
-### 🌟 Did you know?
-Every time your application makes a system call, it's crossing the boundary from user space to kernel space - a process known as a "context switch" that has measurable performance costs!
+### 🎉 **Engaging**
+Fun facts, emojis, and interactive elements that make learning enjoyable
 
-### 📚 Learn more
-[Understanding User and Kernel Space](https://en.wikipedia.org/wiki/User_space_and_kernel_space)
+### 🔗 **Actionable**
+Curated links to the best resources for deeper learning on each topic
 
----
-
-## ACID
-
-### 🔍 What is it?
-ACID (Atomicity, Consistency, Isolation, Durability) is a set of properties that guarantee database transactions are processed reliably, ensuring data validity despite errors, power failures, etc.
-
-### 💡 In simple terms
-ACID is like the safety features of a car:
-- **Atomicity**: All-or-nothing - like airbags that either fully deploy or don't deploy at all
-- **Consistency**: Following the rules - like staying within lane markings
-- **Isolation**: Independence - like having your own lane so other cars don't interfere
-- **Durability**: Permanence - like recording your journey in a way that survives even if the car breaks down
-
-### 🌟 Did you know?
-NoSQL databases often relax some ACID properties in favor of performance and scalability, following what's known as the BASE model (Basically Available, Soft state, Eventually consistent).
-
-### 📚 Learn more
-[ACID Properties in DBMS](https://en.wikipedia.org/wiki/ACID)
+### ⚡ **Practical**
+Knowledge you can immediately apply in your daily engineering work
 
 ---
 
-## Idempotency
+## 🚀 Why Subscribe to Our Digest?
 
-### 🔍 What is it?
-Idempotency is a property where an operation can be applied multiple times without changing the result beyond the initial application - crucial for reliable systems that may need to retry operations.
-
-### 💡 In simple terms
-It's like pressing an elevator button. Press it once, it lights up. Press it five more times, and the result is the same - the elevator is still coming to your floor.
-
-### 🌟 Did you know?
-HTTP methods GET, PUT, and DELETE are designed to be idempotent, while POST is not - which is why refreshing a page after a form submission might create duplicate entries!
-Another example is Kafka idempotency, where it ensures that a message is written to a Kafka topic only once, even if the producer sends it multiple times due to network issues or retries.
-
-### 📚 Learn more
-[Idempotency](https://en.wikipedia.org/wiki/Idempotence)
+- **Stay Current**: Keep up with essential engineering concepts
+- **Level Up**: Expand your technical vocabulary and understanding
+- **Share Knowledge**: Impress colleagues with interesting tech facts
+- **Build Foundations**: Strengthen your grasp of fundamental concepts
+- **Save Time**: Curated content means no more endless searching for quality resources
 
 ---
 
-## Redo log
+## 💬 Join the Community
 
-### 🔍 What is it?
-A redo log is a database mechanism that records all changes made to data, allowing the database to recover and recreate those changes in case of a crash or failure.
+Have a concept you'd like us to cover? Found an error? Want to share feedback? We'd love to hear from you!
 
-### 💡 In simple terms
-Think of it as a detailed recipe journal. If your cake falls on the floor before serving (system crash), you can look at your journal and make the exact same cake again (recovery).
-
-### 🌟 Did you know?
-Oracle's redo logs operate in a circular fashion - once filled, they wrap around and start overwriting the oldest entries, which is why regular backups are essential!
-
-### 📚 Learn more
-[Understanding Database Redo Logs](https://en.wikipedia.org/wiki/Redo_log)
-
----
-
-## Write ahead log
-
-### 🔍 What is it?
-A Write Ahead Log (WAL) is a technique where changes are first recorded in a log before being applied to the database, ensuring durability and atomicity of transactions.
-
-### 💡 In simple terms
-It's like writing a check in your checkbook register before actually spending the money. If you forget what you bought, you can always check your register to see where the money went.
-
-### 🌟 Did you know?
-PostgreSQL's WAL is also used for replication, allowing standby servers to stay in sync by replaying the same sequence of changes!
-
-### 📚 Learn more
-[PostgreSQL Write-Ahead Logging](https://www.postgresql.org/docs/current/wal-intro.html)
-
----
-
-## Isolation Levels
-
-### 🔍 What is it?
-Database isolation levels define how transaction integrity is visible to other users and systems, balancing data consistency with performance by controlling phenomena like dirty reads, non-repeatable reads, and phantom reads.
-
-### 💡 In simple terms
-Isolation levels are like privacy settings for database transactions:
-- **Read Uncommitted**: No privacy - you can see everyone's unfinished work
-- **Read Committed**: Basic privacy - you only see completed work
-- **Repeatable Read**: Enhanced privacy - what you see won't change during your session
-- **Serializable**: Complete privacy - as if everyone is working one at a time
-
-### 🌟 Did you know?
-The default isolation level varies significantly between database systems: SQL Server uses Read Committed, Oracle uses Read Committed, MySQL's InnoDB uses Repeatable Read, and PostgreSQL uses Read Committed!
-
-### 📚 Learn more
-[A Primer on Database Isolation Levels](https://en.wikipedia.org/wiki/Isolation_(database_systems))
-
----
-
-## 🔮 Coming Next Week
-
-Stay tuned for our next digest where we'll explore:
-- Distributed Systems
-- CAP Theorem
-- Eventual Consistency
-- Sharding
-- Consensus Algorithms
-
-*Have a concept you'd like us to cover? Drop us a message!*
+**Coming Soon**: Interactive discussions, concept requests, and community contributions.
 
 ---
 
