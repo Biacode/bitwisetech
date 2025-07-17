@@ -14,6 +14,8 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
     - Idempotency patterns
     - Database logging (Redo & WAL)
     - Transaction isolation levels
+    - Reverse proxy
+    - Distributed tracing
 
 ---
 
