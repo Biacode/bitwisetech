@@ -55,4 +55,4 @@ Have a concept you'd like us to cover? Found an error? Want to share feedback? W
 
 ---
 
-*This digest is brought to you by the Engineering Education Team. Happy coding!* 📚✨
+*Keep learning, keep growing, and remember - every expert was once a beginner!* 🌟
