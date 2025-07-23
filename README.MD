@@ -7,7 +7,7 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
-- **[Week 1 - July 17, 2025](WEEK_1_17_jul_2025.md)** - *Fundamentals Edition*
+- **[Week 1 - July 21, 2025](WEEK_1_21_jul_2025.md)** - *Fundamentals Edition*
     - Zero-copy techniques
     - User space vs Kernel space
     - ACID properties
