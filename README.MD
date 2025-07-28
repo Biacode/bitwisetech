@@ -7,15 +7,28 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 2 - July 28, 2025](WEEK_2_28_Jul_2025.md)** - *Kafka Deep Dive Edition*
+  - Kafka fundamentals
+  - Kafka's Commit Log
+  - Replication and Leader Election
+  - Exactly-Once Semantics
+  - Kafka Connect
+  - Stream Processing with Kafka Streams
+  - Kafka Clustering and KRaft Algorithm
+  - Consumer Groups
+  - Murmur2 hashing
+  - Partitions
+  - Sequential Write patterns
+
 - **[Week 1 - July 21, 2025](WEEK_1_21_jul_2025.md)** - *Fundamentals Edition*
-    - Zero-copy techniques
-    - User space vs Kernel space
-    - ACID properties
-    - Idempotency patterns
-    - Database logging (Redo & WAL)
-    - Transaction isolation levels
-    - Reverse proxy
-    - Distributed tracing
+  - Zero-copy techniques
+  - User space vs Kernel space
+  - ACID properties
+  - Idempotency patterns
+  - Database logging (Redo & WAL)
+  - Transaction isolation levels
+  - Reverse proxy
+  - Distributed tracing
 
 ---
 
