@@ -7,6 +7,15 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 3 - August 4, 2025](WEEK_3_4_Aug_2025.md)** - *Architecture & Communication Patterns Edition*
+  - Event Driven Design
+  - CQRS (Command Query Responsibility Segregation)
+  - Hexagonal Architecture
+  - Kafka Schema Registry
+  - RESTful Services
+  - gRPC
+  - JsonRPC
+
 - **[Week 2 - July 28, 2025](WEEK_2_28_Jul_2025.md)** - *Kafka Deep Dive Edition*
   - Kafka fundamentals
   - Kafka's Commit Log
