@@ -7,6 +7,13 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 4 - August 11, 2025](WEEK_4_11_Aug_2025.md)** - *Rate Limiting & Traffic Control Edition*
+  - Rate Limiters
+  - Token Bucket algorithm
+  - Fixed Window Counter
+  - Sliding Window Counter
+  - Leaky Bucket algorithm
+
 - **[Week 3 - August 4, 2025](WEEK_3_4_Aug_2025.md)** - *Architecture & Communication Patterns Edition*
   - Event Driven Design
   - CQRS (Command Query Responsibility Segregation)
