@@ -7,6 +7,14 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 5 - August 18, 2025](WEEK_5_18_Aug_2025.md)** - *Concurrency & Transaction Management Edition*
+  - Optimistic Lock
+  - Pessimistic Lock
+  - Exponential Backoff Retry Policy
+  - Two Phase Commit
+  - Narayana
+  - Transaction Sync Best Effort
+
 - **[Week 4 - August 11, 2025](WEEK_4_11_Aug_2025.md)** - *Rate Limiting & Traffic Control Edition*
   - Google Protobuf
   - Apache Avro
