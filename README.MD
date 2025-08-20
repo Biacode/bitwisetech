@@ -7,6 +7,11 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 6 - August 25, 2025](WEEK_6_25_Aug_2025.md)** - *Linux Virtualization & Containerization Edition*
+  - Linux cgroups
+  - Linux containers
+  - Virtual machines
+
 - **[Week 5 - August 18, 2025](WEEK_5_18_Aug_2025.md)** - *Concurrency & Transaction Management Edition*
   - Optimistic Lock
   - Pessimistic Lock
