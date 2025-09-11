@@ -7,6 +7,14 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 7 - September 15, 2025](WEEK_7_15_Sep_2025.md)** - *Chaos & Randomness Engineering Edition*
+  - Thundering Herd Problem
+  - Chaos Engineering
+  - Randomness
+  - Pseudorandom
+  - Secure Random
+  - Entropy
+
 - **[Week 6 - September 8, 2025](WEEK_6_8_Sep_2025.md)** - *Linux Virtualization & Containerization Edition*
   - Linux cgroups
   - Linux Namespaces
