@@ -7,6 +7,16 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 8 - September 22, 2025](WEEK_8_22_Sep_2025.md)** - *Runtime Performance & Memory Management Edition*
+  - JIT Compilers
+  - Garbage Collectors
+  - Generational GC
+  - Stop the World
+  - Rust Memory Model
+  - Go's GC Strategy
+  - JavaScript V8 Engine
+  - Java HotSpot VM
+
 - **[Week 7 - September 15, 2025](WEEK_7_15_Sep_2025.md)** - *Chaos & Randomness Engineering Edition*
   - Thundering Herd Problem
   - Chaos Engineering
