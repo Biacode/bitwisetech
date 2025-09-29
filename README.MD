@@ -7,6 +7,16 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 9 - September 29, 2025](WEEK_9_29_Sep_2025.md)** - *Authentication & Cryptography Security Edition*
+  - Public/Private Key Cryptography
+  - Asymmetric Cryptographic Algorithms
+  - Hash Functions
+  - Key Derivation Functions
+  - WebAuthN
+  - FIDO2
+  - Digital Signatures
+  - Certificate Authorities
+
 - **[Week 8 - September 22, 2025](WEEK_8_22_Sep_2025.md)** - *Runtime Performance & Memory Management Edition*
   - JIT Compilers
   - Garbage Collectors
@@ -72,7 +82,7 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
   - Partitions
   - Sequential Write patterns
 
-- **[Week 1 - July 21, 2025](WEEK_1_21_jul_2025.md)** - *Fundamentals Edition*
+- **[Week 1 - July 21, 2025](WEEK_1_21_Jul_2025.md)** - *Fundamentals Edition*
   - Zero-copy techniques
   - User space vs Kernel space
   - ACID properties
