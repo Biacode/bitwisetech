@@ -7,6 +7,16 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 10 - October 20, 2025](WEEK_10_20_Oct_2025.md)** - *Observability & Monitoring Edition*
+  - Metrics & Time Series Data
+  - Distributed Tracing
+  - Structured Logging
+  - OpenTelemetry
+  - SLOs, SLIs, and SLAs
+  - Cardinality
+  - Alerting Best Practices
+  - Observability vs Monitoring
+
 - **[Week 9 - September 29, 2025](WEEK_9_29_Sep_2025.md)** - *Authentication & Cryptography Security Edition*
   - Public/Private Key Cryptography
   - Asymmetric Cryptographic Algorithms
