@@ -7,7 +7,7 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
-- **[Week 11 - November 10, 2025](WEEK_11_10_Nov_2025.md)** - *Authentication Protocols & Identity Management Edition*
+- **[Week 11 - November 10, 2025](WEEK_11_17_Nov_2025.md)** - *Authentication Protocols & Identity Management Edition*
   - HMAC
   - HMAC-SHA1 & Clock Synchronization
   - Kerberos
