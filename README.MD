@@ -7,6 +7,15 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 11 - November 10, 2025](WEEK_11_10_Nov_2025.md)** - *Authentication Protocols & Identity Management Edition*
+  - HMAC
+  - HMAC-SHA1 & Clock Synchronization
+  - Kerberos
+  - LDAP
+  - SAML
+  - Constant-Time Cryptographic Implementation
+  - UUID Versions Deep Dive
+
 - **[Week 10 - October 20, 2025](WEEK_10_20_Oct_2025.md)** - *Observability & Monitoring Edition*
   - Metrics & Time Series Data
   - Distributed Tracing
