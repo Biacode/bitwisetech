@@ -7,13 +7,13 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
-- **[Week 12 - November 24, 2025](WEEK_12_24_Nov_2025.md)** - *RISC-V Architecture Edition*
-  - RISC-V ISA Overview
-  - Base Integer Instructions (RV32I & RV64I)
-  - Extension Mechanisms
-  - Privileged Modes & Protection
-  - Virtual Memory & Address Translation
-  - RISC-V vs x86-64 vs ARM
+- **[Week 12 - November 24, 2025](WEEK_12_24_Nov_2025.md)** - *CPU Architecture Fundamentals Edition*
+  - What is CPU Architecture?
+  - What is an Instruction Set?
+  - RISC-V Architecture
+  - x86 Architecture
+  - ARM Architecture
+  - Comparing ISA Philosophies
   - Pipeline Architecture & Performance
 
 - **[Week 11 - November 17, 2025](WEEK_11_17_Nov_2025.md)** - *Authentication Protocols & Identity Management Edition*
