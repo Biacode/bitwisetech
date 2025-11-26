@@ -7,6 +7,24 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 13 - December 1, 2025](WEEK_13_1_Dec_2025.md)** - *System Resilience & Cascading Failures Edition*
+  - Configuration Management & Deployment
+  - Feature Flags & Gradual Rollouts
+  - Database Access Control & Permission Models
+  - Memory Preallocation & Resource Limits
+  - Cascading Failures & System Dependencies
+  - Root Cause Analysis Under Uncertainty
+  - Incident Recovery & Rollback Strategies
+
+- **[Week 12 - November 24, 2025](WEEK_12_24_Nov_2025.md)** - *CPU Architecture Fundamentals Edition*
+  - What is CPU Architecture?
+  - What is an Instruction Set?
+  - RISC-V Architecture
+  - x86 Architecture
+  - ARM Architecture
+  - Comparing ISA Philosophies
+  - Pipeline Architecture & Performance
+
 - **[Week 11 - November 17, 2025](WEEK_11_17_Nov_2025.md)** - *Authentication Protocols & Identity Management Edition*
   - HMAC
   - HMAC-SHA1 & Clock Synchronization
