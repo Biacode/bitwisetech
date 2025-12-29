@@ -7,6 +7,15 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 14 - December 29, 2025](WEEK_14_29_Dec_2025.md)** - *Load Balancing & Parallel Computing Edition*
+  - Load Balancers
+  - Load Balancing Algorithms
+  - Sticky Sessions
+  - Health Checks & Connection Draining
+  - OpenMP
+  - Fork-Join Model
+  - Non-Uniform Memory Access (NUMA)
+
 - **[Week 13 - December 1, 2025](WEEK_13_1_Dec_2025.md)** - *System Resilience & Cascading Failures Edition*
   - Configuration Management & Deployment
   - Feature Flags & Gradual Rollouts
