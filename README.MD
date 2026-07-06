@@ -7,6 +7,16 @@ Welcome to our Engineering Weekly Digest! Each week, we break down essential tec
 ## 📋 Weekly Digests
 
 ### 🗓️ Latest Releases
+- **[Week 16 - July 6, 2026](WEEK_16_6_Jul_2026.md)** - *High-Throughput Pipelines & Data Partitioning Edition*
+  - The Real Cost of Serialization
+  - Envelope Metadata: Filter Before You Decode
+  - Message Keys as Aggregate Identity
+  - Postgres Hash Partitioning
+  - Aligning Stream Keys with Storage Partitions
+  - Append-Only Table Design
+  - Native vs Pure JS: When Faster Is Not Better
+  - Latency Budgets: Optimize the Bottleneck
+
 - **[Week 15 - June 1, 2026](WEEK_15_1_Jun_2026.md)** - *Caching Strategies & System Performance Edition*
   - Why Caching Is Hard
   - Where Caches Live
